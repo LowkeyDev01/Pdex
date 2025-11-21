@@ -18,7 +18,7 @@ async function fetchNewTokens() {
 
   for (const token of infos) {
     const tokenId = token.tokenAddress;
-    const chainId = token.chainId;
+    const chainId = token.chainId.toUpperCase();
     const website = token.links?.find(s => s.label === 'Website')?.url;
     const telegram = token.links?.find(s => s.type === 'telegram')?.url;
     const twitter = token.links?.find(s => s.type === 'twitter')?.url;
