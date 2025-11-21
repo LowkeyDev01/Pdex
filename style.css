@@ -47,8 +47,10 @@
     align-items: center;
     gap: 3px;
 }
-.name-sec img{
+#her{
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 .socials{
     display: flex;
@@ -59,4 +61,12 @@
 }
 .socials img{
     border-radius: 50%;
+}
+.dd{
+    width: 30px;
+    height: 30px;
+}
+.de{
+    width: 35px;
+    height: 35px;
 }
