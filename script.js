@@ -13,7 +13,7 @@ async function fetchNewTokens() {
   const data = await response.json();
 
   const newestTokens = data.sort((a, b) => b.createdPoolAt - a.createdPoolAt)
-  const infos = newestTokens.slice(0, 10);
+  const infos = newestTokens.slice(0, 30);
 
 
   for (const token of infos) {
